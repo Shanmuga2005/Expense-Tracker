@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.container {
+  width: 350px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.balance {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.summary {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.money {
+  font-size: 1.2em;
+}
+
+.plus {
+  color: green;
+}
+
+.minus {
+  color: red;
+}
+
+.list {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.list li {
+  background: #f4f4f4;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-right: 5px solid;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list li.plus {
+  border-color: green;
+}
+
+.list li.minus {
+  border-color: red;
+}
+
+form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
